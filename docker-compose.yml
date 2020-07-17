@@ -1,10 +1,12 @@
 version: '3.7'
 services:
   frontend:
-    image: node:14.5.0-alpine
+    build:
+      context: .
+      dockerfile: Dockerfile-node-vue
     ports:
       - '80:8080'
     volumes:
       - ./vue/store:/app
     working_dir: /app
-    command: /bin/sh -c "npm install && npm run serve"
+    command: /bin/sh -c "npm run serve"
