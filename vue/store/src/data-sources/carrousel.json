@@ -1,0 +1,24 @@
+{
+    "promotions": [
+        {
+            "link": "http://www.google.com",
+            "image": "logo.png"
+        },
+        {
+            "link": "http://www.twitter.com",
+            "image": "logo.png"
+        },
+        {
+            "link": "http://www.facebook.com",
+            "image": "logo.png"
+        },
+        {
+            "link": "http://www.reddit.com",
+            "image": "logo.png"
+        },
+        {
+            "link": "http://www.netflix.com",
+            "image": "logo.png"
+        }
+    ]
+}
